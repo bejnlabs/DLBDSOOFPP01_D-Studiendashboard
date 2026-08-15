@@ -6,7 +6,7 @@ dieselbe Funktion zu. Damit wird geprueft, ob sich Darstellung und
 Berechnung sauber trennen lassen - eine Vorbedingung fuer das
 Schichtenmodell aus Phase 2.
 
-ACHTUNG: Die Noten sind Platzhalter und muessen durch die echten
+ACHTUNG: Die Noten und Module sind Platzhalter und muessen durch die echten
 Werte ersetzt werden. Die Struktur ist entscheidend, nicht die Zahlen.
 
 Kompatibel ab Python 3.10.
@@ -25,8 +25,8 @@ class Leistung:
 
     bezeichnung: str
     ects: float
-    status: str            # OFFEN | IN_BEARBEITUNG | EINGEREICHT | ABGESCHLOSSEN
-    benotbar: bool         # False bei Praktikum und anerkannten Leistungen
+    status: str  # OFFEN | IN_BEARBEITUNG | EINGEREICHT | ABGESCHLOSSEN
+    benotbar: bool  # False bei Praktikum und anerkannten Leistungen
     note: float | None = None
 
     def ist_bewertet(self) -> bool:
@@ -47,8 +47,9 @@ def beispieldaten() -> list[Leistung]:
         Leistung("Datenbankmodellierung", 5, "ABGESCHLOSSEN", True, 3.1),
         Leistung("Einfuehrung Datenschutz und IT-Sicherheit", 5, "EINGEREICHT", True),
         Leistung("Statistik - Induktive Statistik", 5, "EINGEREICHT", True),
-        Leistung("Praktikum: Bachelor Data Science und KI", 30,
-                 "IN_BEARBEITUNG", False),
+        Leistung(
+            "Praktikum: Bachelor Data Science und KI", 30, "IN_BEARBEITUNG", False
+        ),
         Leistung("Projekt: Cloud Programming", 5, "IN_BEARBEITUNG", True),
     ]
 
@@ -60,8 +61,9 @@ def kennzahlen(leistungen: list[Leistung]) -> dict:
     sie auf und stellen das Ergebnis nur noch dar.
     """
     abgeschlossen = sum(l.ects for l in leistungen if l.status == "ABGESCHLOSSEN")
-    laufend = sum(l.ects for l in leistungen
-                  if l.status in ("IN_BEARBEITUNG", "EINGEREICHT"))
+    laufend = sum(
+        l.ects for l in leistungen if l.status in ("IN_BEARBEITUNG", "EINGEREICHT")
+    )
 
     bewertete = [l for l in leistungen if l.zaehlt_fuer_note()]
     punkte = sum(l.note * l.ects for l in bewertete)
