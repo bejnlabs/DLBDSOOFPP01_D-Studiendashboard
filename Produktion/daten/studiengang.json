@@ -1,0 +1,651 @@
+{
+  "bezeichnung": "Angewandte Künstliche Intelligenz (B.Sc.), Teilzeit I",
+  "gesamt_ects": 180,
+  "startdatum": "2025-09-18",
+  "regelenddatum": "2029-08-15",
+  "ziele": [
+    {
+      "typ": "termin",
+      "bezeichnung": "Zielbild",
+      "zieldatum": "2027-12-31"
+    },
+    {
+      "typ": "note",
+      "bezeichnung": "Wunschziel",
+      "zielnote": 2.0
+    },
+    {
+      "typ": "note",
+      "bezeichnung": "Realistisches Ziel",
+      "zielnote": 2.5
+    }
+  ],
+  "module": [
+    {
+      "modulnummer": "DLBSG1",
+      "bezeichnung": "Studium Generale I",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Studium Generale I",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "typ": "anerkannt",
+          "herkunft": "Anerkennung",
+          "anerkennungsdatum": "2025-10-01"
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBSG2",
+      "bezeichnung": "Studium Generale II",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Studium Generale II",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "typ": "anerkannt",
+          "herkunft": "Anerkennung",
+          "anerkennungsdatum": "2025-10-01"
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSEAIS01-01_D",
+      "bezeichnung": "Artificial Intelligence",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Artificial Intelligence",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": "2025-11-08",
+          "typ": "benotet",
+          "note": 3.3
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBBIMD01",
+      "bezeichnung": "Mathematik: Analysis",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Mathematik: Analysis",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": "2025-11-30",
+          "typ": "benotet",
+          "note": 3.3
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBBIM01",
+      "bezeichnung": "Mathematik: Lineare Algebra",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Mathematik: Lineare Algebra",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": "2026-01-06",
+          "typ": "benotet",
+          "note": 2.3
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBWIRITT01",
+      "bezeichnung": "Einführung in das wissenschaftliche Arbeiten fuer IT und Technik",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Einführung in das wissenschaftliche Arbeiten fuer IT und Technik",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "form": "Advanced Workbook",
+          "versuch": 1,
+          "pruefungsdatum": "2026-02-01",
+          "typ": "benotet",
+          "note": 1.3
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSSPDS01_D",
+      "bezeichnung": "Statistik - Wahrscheinlichkeit und deskriptive Statistik",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Statistik - Wahrscheinlichkeit und deskriptive Statistik",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "form": "Advanced Workbook",
+          "versuch": 1,
+          "pruefungsdatum": "2026-02-08",
+          "typ": "benotet",
+          "note": 3.7
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSIPWP01_D",
+      "bezeichnung": "Einführung in die Programmierung mit Python",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Einführung in die Programmierung mit Python",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": "2026-02-15",
+          "typ": "benotet",
+          "note": 2.0
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSCC01_D",
+      "bezeichnung": "Cloud Computing",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Cloud Computing",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": "2026-03-15",
+          "typ": "benotet",
+          "note": 3.0
+        }
+      ]
+    },
+    {
+      "modulnummer": "IAMG01",
+      "bezeichnung": "IT-Architekturmanagement",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "IT-Architekturmanagement",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": "2026-04-19",
+          "typ": "benotet",
+          "note": 3.3
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBISIC01",
+      "bezeichnung": "Einführung in Datenschutz und IT-Sicherheit",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Einführung in Datenschutz und IT-Sicherheit",
+          "ects_anteil": 5,
+          "status": "abgeschlossen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": "2026-07-05",
+          "typ": "benotet",
+          "note": 3.3
+        }
+      ]
+    },
+    {
+      "modulnummer": "IDBS01",
+      "bezeichnung": "Datenmodellierung und Datenbanksysteme",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Datenmodellierung und Datenbanksysteme",
+          "ects_anteil": 5,
+          "status": "eingereicht",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": "2026-08-15",
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSSIS01_D",
+      "bezeichnung": "Statistik - Induktive Statistik",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Statistik - Induktive Statistik",
+          "ects_anteil": 5,
+          "status": "eingereicht",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": "2026-08-02",
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "IWBI01",
+      "bezeichnung": "Business Intelligence",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Business Intelligence",
+          "ects_anteil": 5,
+          "status": "in Bearbeitung",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBSEPCP01_D",
+      "bezeichnung": "Projekt: Cloud Programming",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Projekt: Cloud Programming",
+          "ects_anteil": 5,
+          "status": "in Bearbeitung",
+          "form": "Portfolio",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSOOFPP01_D",
+      "bezeichnung": "Projekt: Objektorientierte und funktionale Programmierung mit Python",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Projekt: Objektorientierte und funktionale Programmierung mit Python",
+          "ects_anteil": 5,
+          "status": "in Bearbeitung",
+          "form": "Portfolio",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSCIBDSC01-01_D",
+      "bezeichnung": "Praktikum: Bachelor Data Science und KI",
+      "ects": 30,
+      "art": "Praktikum",
+      "leistungen": [
+        {
+          "bezeichnung": "Praxisreflexion",
+          "ects_anteil": 30,
+          "status": "in Bearbeitung",
+          "form": "Praxisreflexion",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "unbenotet",
+          "bestanden": false
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSMLSL01_D",
+      "bezeichnung": "Maschinelles Lernen - Supervised Learning",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Maschinelles Lernen - Supervised Learning",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSMLUSL01_D",
+      "bezeichnung": "Maschinelles Lernen - Unsupervised Learning und Feature Engineering",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Maschinelles Lernen - Unsupervised Learning und Feature Engineering",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Fallstudie",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSNNDL01-01_D",
+      "bezeichnung": "Neuronale Netze und Deep Learning",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Neuronale Netze und Deep Learning",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Fachpraesentation",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBAIICV01_D",
+      "bezeichnung": "Einführung in Computer Vision",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Einführung in Computer Vision",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBAIPCV01_D",
+      "bezeichnung": "Projekt: Computer Vision",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Projekt: Computer Vision",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Projektbericht",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBAIIRL01_D",
+      "bezeichnung": "Einführung in das Reinforcement Learning",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Einführung in das Reinforcement Learning",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBAIBEELAAI01_D",
+      "bezeichnung": "Ethische und rechtliche Aspekte in der KI",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Ethische und rechtliche Aspekte in der KI",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBAIINLP01_D",
+      "bezeichnung": "Einführung in NLP",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Einführung in NLP",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Pruefung",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBAIPNLP01_D",
+      "bezeichnung": "Projekt: NLP",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Projekt: NLP",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Projektbericht",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBAIBESEI01_D",
+      "bezeichnung": "Seminar: Ethische Innovation",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Seminar: Ethische Innovation",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Seminararbeit",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBAIPEAI01_D",
+      "bezeichnung": "Projekt: Edge AI",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Projekt: Edge AI",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Projektbericht",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBDSME01_D",
+      "bezeichnung": "Model Engineering",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Model Engineering",
+          "ects_anteil": 5,
+          "status": "offen",
+          "form": "Fallstudie",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "BBAK",
+      "bezeichnung": "Abschlussmodul",
+      "ects": 10,
+      "art": "Abschlussmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Bachelorarbeit",
+          "ects_anteil": 9,
+          "status": "offen",
+          "form": "Bachelorarbeit",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        },
+        {
+          "bezeichnung": "Kolloquium",
+          "ects_anteil": 1,
+          "status": "offen",
+          "form": "Kolloquium",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "semester": [
+    {
+      "nummer": 1,
+      "startdatum": "2025-09-18",
+      "module": [
+        "DLBSG1",
+        "DLBSG2",
+        "DLBDSEAIS01-01_D",
+        "DLBBIMD01",
+        "DLBBIM01",
+        "DLBWIRITT01",
+        "DLBDSSPDS01_D"
+      ]
+    },
+    {
+      "nummer": 2,
+      "startdatum": "2026-03-18",
+      "module": [
+        "DLBDSIPWP01_D",
+        "DLBDSCC01_D",
+        "IAMG01",
+        "DLBISIC01",
+        "IDBS01",
+        "DLBDSSIS01_D",
+        "IWBI01",
+        "DLBSEPCP01_D",
+        "DLBDSOOFPP01_D",
+        "WPBD-PRAKTIKUM"
+      ]
+    },
+    {
+      "nummer": 3,
+      "startdatum": "2026-09-18",
+      "module": [
+        "DLBDSMLSL01_D",
+        "DLBDSMLUSL01_D",
+        "DLBDSNNDL01-01_D"
+      ]
+    },
+    {
+      "nummer": 4,
+      "startdatum": "2027-03-18",
+      "module": [
+        "DLBAIICV01_D",
+        "DLBAIPCV01_D",
+        "DLBAIIRL01_D"
+      ]
+    },
+    {
+      "nummer": 5,
+      "startdatum": "2027-09-18",
+      "module": [
+        "DLBAIBEELAAI01_D",
+        "DLBAIINLP01_D"
+      ]
+    },
+    {
+      "nummer": 6,
+      "startdatum": "2028-03-18",
+      "module": [
+        "DLBAIPNLP01_D",
+        "DLBAIBESEI01_D"
+      ]
+    },
+    {
+      "nummer": 7,
+      "startdatum": "2028-09-18",
+      "module": [
+        "DLBAIPEAI01_D",
+        "DLBDSME01_D"
+      ]
+    },
+    {
+      "nummer": 8,
+      "startdatum": "2029-03-18",
+      "module": [
+        "BBAK"
+      ]
+    }
+  ]
+}
