@@ -1,6 +1,6 @@
 # Studien-Dashboard
 
-Dashboard zur Ueberwachung des eigenen Studienfortschritts. Entstanden als
+Dashboard zur Überwachung des eigenen Studienfortschritts. Entstanden als
 Portfolioarbeit im Kurs "Objektorientierte und funktionale Programmierung
 mit Python" (DLBDSOOFPP01_D) an der IU Internationalen Hochschule.
 
@@ -24,27 +24,21 @@ python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Der Aufruf ueber `.venv\Scripts\python.exe` vermeidet, dass die
-Ausfuehrungsrichtlinie von PowerShell angepasst werden muss.
+Der Aufruf über `.venv\Scripts\python.exe` vermeidet, dass die
+Ausführungsrichtlinie von PowerShell angepasst werden muss.
 
 ## Start
 
-Grafische Oberflaeche im Browser:
+Grafische Oberfläche im Browser:
 
 ```powershell
 .venv\Scripts\python.exe -m streamlit run app_streamlit.py
 ```
 
-Kommandozeile als Rueckfallebene, ohne Zusatzpakete lauffaehig:
+Kommandozeile als Rückfallebene, ohne Zusatzpakete lauffähig:
 
 ```powershell
 .venv\Scripts\python.exe app_cli.py
-```
-
-Optional laesst sich ein abweichender Stichtag angeben:
-
-```powershell
-.venv\Scripts\python.exe app_cli.py 2026-08-10
 ```
 
 ## Tests
@@ -71,11 +65,11 @@ tests/          automatisierte Tests
 ## Daten
 
 Die Studiendaten liegen in `daten/studiengang.json` und lassen sich in
-einem Texteditor oder ueber die grafische Oberflaeche pflegen. Mit
+einem Texteditor oder über die grafische Oberfläche pflegen. Mit
 `python erzeuge_daten.py` wird die Ausgangsdatei neu erzeugt.
 
 Der Modulkatalog folgt dem Studienablaufplan B.Sc. Angewandte
-Kuenstliche Intelligenz im Modell Teilzeit I. Als Modulnummern dienen
-die dort ausgewiesenen Kurscodes, etwa `DLBDSOOFPP01_D` fuer diesen
+Künstliche Intelligenz im Modell Teilzeit I. Als Modulnummern dienen
+die dort ausgewiesenen Kurscodes, etwa `DLBDSOOFPP01_D` für diesen
 Kurs. Module, die noch nicht begonnen wurden, sind keinem Semester
 zugeordnet.
