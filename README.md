@@ -1,8 +1,8 @@
 # Studiendashboard
 
 Dashboard zur Überwachung des eigenen Studienfortschritts. Entstanden als
-Portfolioarbeit im Kurs "Objektorientierte und funktionale Programmierung
-mit Python" (DLBDSOOFPP01_D) an der IU Internationalen Hochschule.
+Portfolioarbeit im Kurs "Objektorientierte und funktionale Programmierung mit
+Python" (DLBDSOOFPP01_D) an der IU Internationalen Hochschule.
 
 ## Überwachte Ziele
 
@@ -14,44 +14,42 @@ mit Python" (DLBDSOOFPP01_D) an der IU Internationalen Hochschule.
 
 ## Installation
 
-Voraussetzung ist Python 3.10 oder neuer. Entwickelt und getestet wurde
-unter Python 3.14.5 auf Windows 11.
+Voraussetzung ist Python 3.10 oder neuer. Entwickelt und getestet wurde unter
+Python 3.14.5 auf Windows 11 mit der PowerShell.
 
 ```powershell
 cd DLBDSOOFPP01_D-Studiendashboard
 python -m venv .venv
-.venv\Scripts\python.exe -m pip install --upgrade pip
-.venv\Scripts\python.exe -m pip install -r requirements.txt
+& .\.venv\Scripts\python.exe -m pip install --upgrade pip
+& .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Der Aufruf über `.venv\Scripts\python.exe` vermeidet, dass die
-Ausführungsrichtlinie von PowerShell angepasst werden muss.
+Der Aufruf über `python.exe` aus der virtuellen Umgebung vermeidet, dass die
+Ausführungsrichtlinie von PowerShell angepasst werden muss. Das vorangestellte
+kaufmännische Und ist erforderlich, da PowerShell einen mit einem Punkt
+beginnenden Pfad sonst als Modulnamen liest.
 
 ## Start
 
-Grafische Oberfläche im Browser:
+Grafische Oberfläche im Browser. Beim ersten Start fragt Streamlit nach einer
+E-Mail-Adresse. Die Abfrage lässt sich mit der Eingabetaste überspringen.
+Beenden mit Strg + C.
 
 ```powershell
-.venv\Scripts\python.exe -m streamlit run app_streamlit.py
+& .\.venv\Scripts\python.exe -m streamlit run app_streamlit.py
 ```
 
-Kommandozeile als Rückfallebene, ohne Zusatzpakete lauffähig:
+Kommandozeile als Rückfallebene, ohne Zusatzpakete lauffähig.
 
 ```powershell
-.venv\Scripts\python.exe app_cli.py
-```
-
-## Tests
-
-```powershell
-.venv\Scripts\python.exe -m unittest discover -s tests
+& .\.venv\Scripts\python.exe app_cli.py
 ```
 
 ## Aufbau
 
 ```
 dashboard/
-  domaene/      Fachklassen, Aufzaehlungstypen, Berechnungsregeln
+  domaene/      Fachklassen, Aufzählungstypen, Berechnungsregeln
   repository.py Zugriff auf die Speicherung (Protokoll und JSON-Umsetzung)
   services.py   Vorausberechnungen und Zielvergleiche
   dto.py        Datenobjekte für die Übergabe an die Darstellung
@@ -64,12 +62,17 @@ tests/          automatisierte Tests
 
 ## Daten
 
-Die Studiendaten liegen in `daten/studiengang.json` und lassen sich in
-einem Texteditor oder über die grafische Oberfläche pflegen. Mit
-`python erzeuge_daten.py` wird die Ausgangsdatei neu erzeugt.
+Die Studiendaten liegen in `daten/studiengang.json` und lassen sich in einem
+Texteditor oder über die grafische Oberfläche pflegen. Der Ausgangsstand wird
+über den folgenden Aufruf wiederhergestellt; von Hand vorgenommene Änderungen
+werden dabei überschrieben.
 
-Der Modulkatalog folgt dem Studienablaufplan B.Sc. Angewandte
-Künstliche Intelligenz im Modell Teilzeit I. Als Modulnummern dienen
-die dort ausgewiesenen Kurscodes, etwa `DLBDSOOFPP01_D` für diesen
-Kurs. Module, die noch nicht begonnen wurden, sind keinem Semester
-zugeordnet.
+```powershell
+& .\.venv\Scripts\python.exe erzeuge_daten.py
+```
+
+Der Modulkatalog folgt dem Studienablaufplan B.Sc. Angewandte Künstliche
+Intelligenz im Modell Teilzeit I. Als Modulnummern dienen die dort
+ausgewiesenen Kurscodes, etwa `DLBDSOOFPP01_D` für diesen Kurs. Die Semester 1
+und 2 bilden den bisherigen Verlauf ab, die Semester 3 bis 8 die Planung bis
+zum Ende der Regelstudienzeit.
