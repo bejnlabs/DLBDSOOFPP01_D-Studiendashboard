@@ -34,7 +34,7 @@ class StreamlitView:
         self.controller = controller
 
     def zeige(self, daten: DashboardDatenDTO) -> None:
-        st.set_page_config(page_title="Studien-Dashboard", layout="centered")
+        st.set_page_config(page_title="Studiendashboard", layout="centered")
         st.title("Studien-Dashboard")
         st.caption(f"{daten.studiengang} · Stand {daten.stichtag.strftime('%d.%m.%Y')}")
         self._fortschritt(daten)

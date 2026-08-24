@@ -65,7 +65,7 @@
           "status": "abgeschlossen",
           "form": "Pruefung",
           "versuch": 1,
-          "pruefungsdatum": "2025-11-08",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": 3.3
         }
@@ -83,7 +83,7 @@
           "status": "abgeschlossen",
           "form": "Pruefung",
           "versuch": 1,
-          "pruefungsdatum": "2025-11-30",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": 3.3
         }
@@ -101,7 +101,7 @@
           "status": "abgeschlossen",
           "form": "Pruefung",
           "versuch": 1,
-          "pruefungsdatum": "2026-01-06",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": 2.3
         }
@@ -119,7 +119,7 @@
           "status": "abgeschlossen",
           "form": "Advanced Workbook",
           "versuch": 1,
-          "pruefungsdatum": "2026-02-01",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": 1.3
         }
@@ -137,7 +137,7 @@
           "status": "abgeschlossen",
           "form": "Advanced Workbook",
           "versuch": 1,
-          "pruefungsdatum": "2026-02-08",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": 3.7
         }
@@ -155,7 +155,7 @@
           "status": "abgeschlossen",
           "form": "Pruefung",
           "versuch": 1,
-          "pruefungsdatum": "2026-02-15",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": 2.0
         }
@@ -173,7 +173,7 @@
           "status": "abgeschlossen",
           "form": "Pruefung",
           "versuch": 1,
-          "pruefungsdatum": "2026-03-15",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": 3.0
         }
@@ -191,7 +191,7 @@
           "status": "abgeschlossen",
           "form": "Pruefung",
           "versuch": 1,
-          "pruefungsdatum": "2026-04-19",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": 3.3
         }
@@ -209,7 +209,7 @@
           "status": "abgeschlossen",
           "form": "Pruefung",
           "versuch": 1,
-          "pruefungsdatum": "2026-07-05",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": 3.3
         }
@@ -227,7 +227,7 @@
           "status": "eingereicht",
           "form": "Pruefung",
           "versuch": 1,
-          "pruefungsdatum": "2026-08-15",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": null
         }
@@ -245,7 +245,7 @@
           "status": "eingereicht",
           "form": "Pruefung",
           "versuch": 1,
-          "pruefungsdatum": "2026-08-02",
+          "pruefungsdatum": null,
           "typ": "benotet",
           "note": null
         }
@@ -260,26 +260,8 @@
         {
           "bezeichnung": "Business Intelligence",
           "ects_anteil": 5,
-          "status": "in Bearbeitung",
+          "status": "eingereicht",
           "form": "Pruefung",
-          "versuch": 1,
-          "pruefungsdatum": null,
-          "typ": "benotet",
-          "note": null
-        }
-      ]
-    },
-    {
-      "modulnummer": "DLBSEPCP01_D",
-      "bezeichnung": "Projekt: Cloud Programming",
-      "ects": 5,
-      "art": "Kursmodul",
-      "leistungen": [
-        {
-          "bezeichnung": "Projekt: Cloud Programming",
-          "ects_anteil": 5,
-          "status": "in Bearbeitung",
-          "form": "Portfolio",
           "versuch": 1,
           "pruefungsdatum": null,
           "typ": "benotet",
@@ -295,6 +277,24 @@
       "leistungen": [
         {
           "bezeichnung": "Projekt: Objektorientierte und funktionale Programmierung mit Python",
+          "ects_anteil": 5,
+          "status": "eingereicht",
+          "form": "Portfolio",
+          "versuch": 1,
+          "pruefungsdatum": null,
+          "typ": "benotet",
+          "note": null
+        }
+      ]
+    },
+    {
+      "modulnummer": "DLBSEPCP01_D",
+      "bezeichnung": "Projekt: Cloud Programming",
+      "ects": 5,
+      "art": "Kursmodul",
+      "leistungen": [
+        {
+          "bezeichnung": "Projekt: Cloud Programming",
           "ects_anteil": 5,
           "status": "in Bearbeitung",
           "form": "Portfolio",
@@ -593,9 +593,9 @@
         "IDBS01",
         "DLBDSSIS01_D",
         "IWBI01",
-        "DLBSEPCP01_D",
         "DLBDSOOFPP01_D",
-        "WPBD-PRAKTIKUM"
+        "DLBSEPCP01_D",
+        "DLBDSCIBDSC01-01_D"
       ]
     },
     {
