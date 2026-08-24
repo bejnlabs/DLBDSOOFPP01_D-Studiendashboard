@@ -1,4 +1,4 @@
-# Studien-Dashboard
+# Studiendashboard
 
 Dashboard zur Überwachung des eigenen Studienfortschritts. Entstanden als
 Portfolioarbeit im Kurs "Objektorientierte und funktionale Programmierung

@@ -79,17 +79,17 @@ BEWERTET = [
 EINGEREICHT = [
     ("IDBS01", "Datenmodellierung und Datenbanksysteme", PR),
     ("DLBDSSIS01_D", "Statistik - Induktive Statistik", PR),
-]
-
-# ----------------------------------------------------------- in Bearbeitung
-IN_BEARBEITUNG = [
     ("IWBI01", "Business Intelligence", PR),
-    ("DLBSEPCP01_D", "Projekt: Cloud Programming", PO),
     (
         "DLBDSOOFPP01_D",
         "Projekt: Objektorientierte und funktionale Programmierung mit Python",
         PO,
     ),
+]
+
+# ----------------------------------------------------------- in Bearbeitung
+IN_BEARBEITUNG = [
+    ("DLBSEPCP01_D", "Projekt: Cloud Programming", PO),
 ]
 
 # ----------------------------------------------------------- offene Module
